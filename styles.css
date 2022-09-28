@@ -11,12 +11,11 @@ body {
 
 h1 {
     text-align: left;
-    font-size: 48px 
+    font-size: 48px;
 }
 
 h2 {
     margin-left: 10px;
-    padding-bottom: 50px;
 }
 
 img { 
@@ -27,6 +26,8 @@ header {
     display: inline-block;
     margin: 0 auto;
     width: 100%;
+    background-color: white;
+    margin-bottom: 2%;
 }
 
 nav {
@@ -37,8 +38,10 @@ nav {
 }
 
 #topleft-name {
-    padding-top: 5px
-    padding-bottom: 5px
+    margin: 0 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(112, 165, 112);
 }
 
 #topleft-name, nav {
@@ -48,7 +51,7 @@ nav {
 }
 
 img#about-me {
-    margin: 10px
+    margin: 10px;
 }
 
 main, aside {
@@ -75,8 +78,6 @@ img {
 
 aside > a {
     text-align: center; 
-    float: right;
-
 }
 
 section#about-me {
@@ -89,4 +90,20 @@ section#about-me {
     background-color: white;
     background-image: none;
     flex: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 5px; 
+    background-color: green;
+    text-align: center;
+    border-top-style: groove;
+    border-top: 4px groove black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: 50%;
+    margin-right: 50%; 
 }
