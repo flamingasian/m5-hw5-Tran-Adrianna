@@ -1,41 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
     background-image: url("background image.png");
 }
 
-h1, h2 {
-    background-color: rgb(255, 255, 255);
-}
-
 h1 {
-    text-align: center;
+    text-align: left;
     font-size: 48px 
 }
 
-main {
-   background-color: aliceblue; 
+h2 {
+    margin-left: 10px;
+    padding-bottom: 50px;
 }
 
 img { 
     float: left;
 }
 
-.main-nav {
-    font-family: Georgia, 'Times New Roman', Times, serif
-    font: .8rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+header { 
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
 }
 
-.main.nav li {float: left;}
-.main-nav li a {
-    display: block;
-    color: #EEEEEE;
+nav {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: right;
+}
+
+#topleft-name {
+    padding-top: 5px
+    padding-bottom: 5px
+}
+
+#topleft-name, nav {
+    display: inline-block;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
+
+img#about-me {
+    margin: 10px
+}
+
+main, aside {
+    display: inline-block;
+}
+
+main {
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+aside {
+    background-color: white;
+    width: 20%;
+    float: right; 
     text-align: center;
-    padding 10px 12px;
-    text-decoration: none;
+    margin-right: 7%;
+}
+
+img {
+    text-align: center;
+}
+
+aside > a {
+    text-align: center; 
+    float: right;
+
+}
+
+section#about-me {
+    float: left;
+    width: 70%;
+    padding-bottom: 3%;
+}
+
+section#about-me { 
+    background-color: white;
+    background-image: none;
+    flex: 1;
 }
