@@ -1,1 +1,41 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    background-image: url("background image.png");
+}
 
+h1, h2 {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px 
+}
+
+main {
+   background-color: aliceblue; 
+}
+
+img { 
+    float: left;
+}
+
+.main-nav {
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font: .8rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.main.nav li {float: left;}
+.main-nav li a {
+    display: block;
+    color: #EEEEEE;
+    text-align: center;
+    padding 10px 12px;
+    text-decoration: none;
+}
